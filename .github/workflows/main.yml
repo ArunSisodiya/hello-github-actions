@@ -1,0 +1,13 @@
+name: A basic workflow for my hello world github actions project
+
+on: push
+
+jobs:
+  build:
+    name: A Hello World action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "Arun"
