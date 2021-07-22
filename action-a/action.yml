@@ -1,0 +1,18 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "btrack44@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "My name variable"
+    required: true
+    default: "Github Actions"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
+  
