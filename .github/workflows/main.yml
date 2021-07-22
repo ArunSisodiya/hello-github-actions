@@ -1,0 +1,4 @@
+name: A basic workflow for my hello world github actions project
+
+on: push
+
